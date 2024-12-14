@@ -1,0 +1,150 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilo del header */
+header {
+    background-color: #f7d917;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    width: 30%;
+    height: auto;
+    margin: 10%;
+}
+
+section h2 {
+    color: #f7d917;
+}
+
+/* Estilo para el menú */
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.agregar-carrito {
+    background-color: #f7d917;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.agregar-carrito:hover {
+    background-color: #e6c100;
+}
+
+/* Estilo de las ofertas */
+.oferta {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: 10px;
+}
+
+.oferta img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Estilo para la imagen de la sección Acerca de Nosotros */
+#acerca img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilo del formulario de contacto */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #f7d917;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #e6c100;
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
